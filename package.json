@@ -1,0 +1,49 @@
+{
+  "name": "verdaccio-npm-urls",
+  "version": "0.1.0",
+  "keywords": [
+    "npm",
+    "package",
+    "private",
+    "registry",
+    "urls",
+    "verdaccio"
+  ],
+  "homepage": "https://github.com/n4bb12/verdaccio-npm-urls/blob/master/README.md",
+  "bugs": "https://github.com/n4bb12/verdaccio-npm-urls/issues",
+  "repository": "github:n4bb12/verdaccio-npm-urls",
+  "license": "MIT",
+  "author": "Abraham Schilling",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "prepack": "yarn build",
+    "test": "echo No tests."
+  },
+  "dependencies": {
+    "express": "^4.16.0"
+  },
+  "devDependencies": {
+    "@n4bb12/config-tslint": "^1.4.1",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.11.0",
+    "nodemon": "^1.18.10",
+    "release-it": "^10.3.1",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3333",
+    "verdaccio": "^3.11.6"
+  },
+  "peerDependencies": {
+    "verdaccio": "^3.11.6"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "$schema": "http://json.schemastore.org/package"
+}
