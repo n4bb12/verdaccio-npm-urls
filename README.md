@@ -24,6 +24,24 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/verdaccio-npm-urls">
+    <img alt="Version" src="https://flat.badgen.net/npm/v/verdaccio-npm-urls?icon=npm">
+  </a>
+  <a href="https://raw.githubusercontent.com/n4bb12/verdaccio-npm-urls/master/LICENSE">
+    <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/verdaccio-npm-urls?icon=github">
+  </a>
+  <a href="https://github.com/n4bb12/verdaccio-npm-urls/issues/new/choose">
+    <img alt="Issues" src="https://flat.badgen.net/badge/github/create issue/pink?icon=github">
+  </a>
+  <a href="https://circleci.com/gh/n4bb12/workflows/verdaccio-npm-urls">
+    <img alt="CircleCI" src="https://flat.badgen.net/circleci/github/n4bb12/verdaccio-npm-urls?icon=circleci">
+  </a>
+  <a href="https://david-dm.org/n4bb12/verdaccio-npm-urls">
+    <img alt="Dependencies" src="https://flat.badgen.net/david/dep/n4bb12/verdaccio-npm-urls?icon=npm">
+  </a>
+</p>
+
 ## About
 
 Verdaccio has slightly different URLs compared to npm. See for example, the package details page:
