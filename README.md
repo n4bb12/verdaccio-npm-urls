@@ -37,6 +37,12 @@ https://www.npmjs.com/package/my-package
 
 To improve compatibility with existing tools, this plugin adds the routes used by npm to Verdaccio.
 
+## List of URLs
+
+| |
+|-|
+| /package/:name |
+
 ## Install
 
 ```
@@ -50,9 +56,3 @@ middlewares:
   npm-urls:
     enabled: true
 ```
-
-## List of URLs
-
-| |
-|-|
-| /package/:name |
