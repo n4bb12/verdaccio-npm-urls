@@ -51,6 +51,8 @@ $ npm install verdaccio-npm-urls
 
 ## Configuration
 
+Merge the below options with your existing Verdaccio configuration:
+
 ```yml
 middlewares:
   npm-urls:
