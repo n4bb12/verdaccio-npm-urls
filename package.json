@@ -36,14 +36,14 @@
   "devDependencies": {
     "@n4bb12/config-tslint": "^1.4.1",
     "@types/express": "^4.16.1",
-    "@types/node": "^11.11.0",
+    "@types/node": "^11.11.6",
     "cpy-cli": "^2.0.0",
     "nodemon": "^1.18.10",
     "release-it": "^10.3.1",
     "rimraf": "^2.6.3",
-    "tslint": "^5.13.1",
+    "tslint": "^5.14.0",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.3.3333",
+    "typescript": "^3.3.4000",
     "verdaccio": "^3.11.6"
   },
   "peerDependencies": {
