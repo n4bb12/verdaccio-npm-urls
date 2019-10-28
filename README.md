@@ -26,18 +26,24 @@
 
 ## About
 
-Verdaccio has slightly different URLs compared to npm. See for example, the package details page:
-```
-# Verdaccio
-https://my-registry.com/#/detail/my-package
+Verdaccio has slightly different URLs compared to NPM. For example it has a different package detail page:
 
-# npm
-https://www.npmjs.com/package/my-package
-```
+|             |                          |
+| ----------- | ------------------------ |
+| NPM         | /package/my-package      |
+| Verdaccio 3 | /#/detail/my-package     |
+| Verdaccio 4 | /-/web/detail/my-package |
 
-To improve compatibility with existing tools, this plugin adds the routes used by npm to Verdaccio.
+To improve compatibility with existing tools, this plugin adds the routes used by NPM to Verdaccio.
 
-## List of URLs
+As an example, [release-it](https://raw.githubusercontent.com/release-it/release-it/master/docs/assets/release-it.gif) prints the package URL after successful publishing, but the link is incorrect for Verdaccio by default.
+
+### Compatibility
+
+- Verdaccio 3 and 4
+- Node >=10
+
+## List of additional URLs
 
 | |
 |-|
