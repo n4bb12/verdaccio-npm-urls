@@ -46,7 +46,6 @@
   },
   "peerDependencies": {
     "express": "4",
-    "lodash": "4",
     "verdaccio": "3 || 4"
   },
   "engines": {
