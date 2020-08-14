@@ -1,19 +1,16 @@
 #
-# This is the default config file. It allows all users to do anything,
-# so don't use it on production systems.
-#
 # Look here for more config file examples:
 # https://github.com/verdaccio/verdaccio/tree/master/conf
 #
 
 # path to a directory with all packages
 storage: ./storage
+
 # path to a directory with plugins to include
 plugins: ./plugins
 
 web:
   # WebUI is enabled as default, if you want disable it, just uncomment this line
-  #enable: false
   title: Verdaccio
 
 auth:
@@ -29,13 +26,13 @@ uplinks:
     url: https://registry.npmjs.org/
 
 packages:
-  '@*/*':
+  "@*/*":
     # scoped packages
     access: $all
     publish: $authenticated
     proxy: npmjs
 
-  '**':
+  "**":
     # allow all users (including non-authenticated users) to read and
     # publish all packages
     #

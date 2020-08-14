@@ -1,8 +1,9 @@
+.cache/
+.env
 .vscode/
-*.log
+coverage/
 dist/
 node_modules/
+package/
 plugins/
 storage/
-test/
-verdaccio.yaml

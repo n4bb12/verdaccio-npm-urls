@@ -11,6 +11,7 @@ about: Create a report to help us improve
 
 |                    | Version |
 | ------------------ | ------- |
+| node.js            |         |
 | verdaccio          |         |
 | verdaccio-npm-urls |         |
 
